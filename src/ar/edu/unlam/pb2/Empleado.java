@@ -42,8 +42,8 @@ public class Empleado {
 		return salario;
 	}
 		
-	public void setSalario(Double salario) {
-		this.salario += salario;
+	public void setSalario(Double nuevoSalario) {
+		this.salario = nuevoSalario;
 	}
 
 	public TipoDeEmpleado getClasificacionDelEmpleado() {
